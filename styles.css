@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: #eaf9ff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#game {
+    background-image: url('bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* 또는 contain */
+
+    position: relative;
+    width: 400px;
+    height: 540px;
+    margin: 0 auto;
+    border: 0px solid #333;
+    overflow: hidden;
+}
+
+#player {
+    border: 0px solid #333;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    left: 0px;
+    background-image: url("player.png");
+    background-size: cover;
+}
+.poop {
+    border: 0px solid red;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("poop.png");
+    background-size: cover;
+    top: 0;
+    z-index: 11;
+}
+
+
+/* 점수 스타일 */
+#score {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 재시작 버튼 스타일 */
+#restartBtn {
+    z-index: 10;
+    margin-top: 210px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+#restartBtn:hover {
+    background-color: #eee;
+}
+
+#restartBtn:active {
+    transform: scale(0.95);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    background: #008080;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

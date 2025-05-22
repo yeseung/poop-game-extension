@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "똥 피하기 게임",
+    "description": "귀여운 캐릭터로 떨어지는 똥을 피하세요! 키보드로 좌우 이동하며 점수를 높이는 간단하고 중독성 있는 미니게임입니다.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": "icon32.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "32": "icon32.png",
+        "128": "icon128.png"
+    }
+}
